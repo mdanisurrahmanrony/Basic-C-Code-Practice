@@ -1,0 +1,23 @@
+
+#include<stdio.h>
+void main() {
+
+float x,nl,x_1,t1;
+int i;
+
+printf("\n\nEnter the value of X:  ");
+scanf("%f",&x);
+
+t1 = (x-1)/x;
+
+for(i=2;i<=7;i++) {
+
+nl = (1.0/2.0)  * pow((x_1),i);
+
+}
+
+nl = nl + t1;
+
+printf("\n\nApproximated natural log = %f\n",nl);
+
+}

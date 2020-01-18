@@ -1,0 +1,76 @@
+#include <stdio.h>
+
+main()
+{
+    int m1, m2, m3, m4, m5, m6, m7, m8, m9, m10, sum;
+
+    float ave;
+
+    printf("Enter ten marks :\n");
+
+    scanf("%d %d %d %d %d %d %d %d %d %d",&m1, &m2, &m3, &m4, &m5, &m6, &m7, &m8, &m9, &m10);
+
+    sum = m1+m2+m3+m4+m5+m6+m7+m8+m9+m10;
+
+    ave = sum/10.0;
+
+    if(ave<=100&&ave>=80){
+
+        printf("You got A+\n");
+    }
+
+    else if(ave<=79&&ave>=75){
+
+        printf("You got A\n");
+    }
+
+    else if(ave<=74&&ave>=70){
+
+        printf("You got A-\n");
+    }
+
+    else if(ave<=69&&ave>=65){
+
+        printf("You got B+\n");
+
+    }
+
+    else if(ave<=64&&ave>=60){
+
+        printf("You got B\n");
+    }
+
+    else if(ave<=59&&ave>=55){
+
+        printf("You got B-\n");
+    }
+
+    else if(ave<=54&&ave>=50){
+
+        printf("You got C+\n");
+
+    }
+
+    else if(ave<=49&&ave>=45){
+
+        printf("You got C\n");
+    }
+
+    else if(ave<=44&&ave>=39.5){
+
+        printf("You got D\n");
+
+    }
+
+    else if(ave<39.5&&ave>=0){
+
+        printf("You've FAILED.\n");
+
+    }
+
+    else{
+
+        printf("Invalid Input\nUse input in range of 0-100.\n");
+    }
+
+}

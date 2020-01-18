@@ -1,0 +1,19 @@
+#include<stdio.h>
+#include<stdio.h>
+main()
+{
+    long num ,n;
+    clrscr();
+    printf("please enter the number:");
+    scanf("%Id",&num);
+    printf("\n\noctal equivalent:");
+    while(num!=0){
+        n=num%8;
+        printf("%d",n);
+        num/8;
+    }
+    gotoxy(20.6)
+    printf("%c%c%c%c%c read from right to left",196,196,196,196,196);
+    getchI();
+    return 0;
+}

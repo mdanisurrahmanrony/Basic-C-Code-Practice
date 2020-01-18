@@ -1,0 +1,12 @@
+#include<stdio.h>
+#include<stdio.h>
+main()
+{
+    int r,c;
+    clrscr();
+    for(r=0;r<=24;r++)
+        for(c=0;c<=79;c++)
+        printf("%c",1);
+        printf("press any key to exist");
+        getch();
+}

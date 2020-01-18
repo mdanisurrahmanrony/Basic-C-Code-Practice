@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<stdio.h>
+main()
+{
+    int i =0;
+    clrscr();
+    while(i<=225)
+    {
+        printf("%d %ch",i,i);
+        i++;
+    }
+    printdf("\n\n\n\npress any key to exist");
+    getch();
+
+
+}

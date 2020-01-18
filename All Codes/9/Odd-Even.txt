@@ -1,0 +1,42 @@
+#include <stdio.h>
+
+main()
+{
+    int o = 1, e = 2, s_o = 0, s_e = 0;
+
+    printf("The odd numbers between 1 to 50 are :\n");
+
+    for(;o<=50;o+=2){
+
+        printf("%d\n",o);
+
+        s_o+=o;
+
+    }
+
+     printf("The even numbers between 1 to 50 are :\n");
+
+    for(;e<=50;e+=2){
+
+        printf("%d\n",e);
+
+        s_e+=e;
+
+
+    }
+
+    if(s_o>s_e){
+         printf("Sum of odd numbers is greater than sum of even numbers\n\n");
+         printf("And the value is %d\n\n",s_o);
+        }
+
+    /*As here the program works in fixed number range & with odd and even numbers, so there won't be any condition like 's_o==s_e'.
+        So we're ignoring condition like this. */
+
+
+    else{
+        printf("Sum of even numbers is greater than sum of odd numbers\n");
+        printf("And the value is %d",s_e);
+    }
+
+}

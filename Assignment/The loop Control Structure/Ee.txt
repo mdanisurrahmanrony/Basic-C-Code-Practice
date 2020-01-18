@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<stdio.h>
+int main()
+{
+    int year=0;inv,altn;
+    while(altn>inv){
+        year+=1;
+        altn=120*year;
+        inv=(1000*year)-(6000-2000);
+    }
+    printff("Minimum life of the machine would be=%d",year);
+    getch();
+    return 0;
+    }

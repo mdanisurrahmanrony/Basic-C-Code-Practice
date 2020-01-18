@@ -1,0 +1,28 @@
+#include<stdio.h>
+#include<stdio.h>
+main()
+{
+    int num,tnum=0,tp=0,tn=0,tz=0;
+    char another;
+    clrscr();
+    do{
+        printf("\nEnter any number ");
+        scanf("%d",&sum);
+        tnum=tnum+1;
+        if(num==0)
+        tz=tz+1;
+        if(num<0)
+        tn=tn+1;
+        printf("\nEnter another number Y/N:");
+        scanf("%c",&another);
+    }
+    clrscr();
+    printf("\n\n\nTotal numbers entered = %d\n",tnum);
+    printf("\nTotal zeros = %d\n",tz);
+    printf("\nTotal positive numbers = %d\n",tp);
+    printf("\nTotal negative number =%d\n",tn);
+    getch();
+    return 0;
+
+}
+

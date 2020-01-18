@@ -1,0 +1,18 @@
+#include<stdio.h>
+#include<stdio.h>
+main()
+{
+    int x,y,i=1;
+    long int power=1;
+    clrscr();printf("Enter two number");
+    scanf("%d%d",&x,&y);
+    while(i<=y)
+    {
+        power=power*x;
+        i++;
+    }
+    printf("\n%d to the power %d is %d ",x,y,power);
+    printf("\n\n\n\n\npress any key to exist");
+    getch();
+
+}

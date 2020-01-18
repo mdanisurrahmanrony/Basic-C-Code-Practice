@@ -1,0 +1,23 @@
+#include<stdio.h>
+#include<stdio.h>
+main()
+{
+    int i,n=1;
+    clrscr();
+    printf("\nprime number between 1 & 300 are:\n1\t");
+    while(n<=300)
+    {
+        i=2;
+        while(i<n)
+        {
+            if(n%==0)
+                break;
+            else i++;
+        }
+        if(i==n)
+            printf("%d\t",n);
+        n++;
+    }
+    printf("\n\n\\n\n\npress any key to exit");
+    getch();
+}

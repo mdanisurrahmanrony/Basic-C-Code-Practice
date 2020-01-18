@@ -1,0 +1,27 @@
+#include<stdio.h>
+#include<Stdio.h>
+main()
+{
+    int m = 21,p,c;
+    clrscr();
+    {
+        while(1)
+        {
+            printf("\n\nNo of matches left=%d",m);
+            printf("\npick up 1,2,3 or 4 matches");
+            scanf("%d",&p);
+            if(p>4||p<1)
+                continue;
+            m=m-p;
+            printf("\n\nNo of matches left=%d",m);
+            c=5-p;
+            printf("\noutput of which computer picked up%d",c);
+            m=m-c;
+            if(m==1)
+            {
+                printf("\n\nNumber of matches left%d",m);
+                printf("\nyou lost the game !!");
+            }
+        }
+    }
+}

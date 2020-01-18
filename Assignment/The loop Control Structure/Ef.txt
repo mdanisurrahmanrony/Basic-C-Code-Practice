@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<stdio.h>
+int main()
+{
+    int i,j,k;
+    clrscr();
+    printf("please enter the number:\n");
+    scanf("%d",&i);
+    for(j=1;j<=10;J++){
+        k=i*j;
+        printf("\n%d*%d=%^d\n",i,j,k);
+       }
+       getch();
+       return 0;
+}

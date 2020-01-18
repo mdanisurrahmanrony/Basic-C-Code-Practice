@@ -1,0 +1,32 @@
+#include<stdio.h>
+#include<stdio.h>
+main()
+{
+    int min,mix,num,range,flag=0;
+    char ch;
+    clrscr();
+    do{
+        printf("\nEnter number:");
+        scanf("%d",&num);
+        if(flag==0){
+            min=num;
+            max=num;
+        }
+        flag++:
+            if(min>num){
+                min=num
+            }
+            if(max<num){
+                max=num;
+            printf("\n\nEnter another number(Y/N)"));
+            scanf("%c",&ch);
+            clrscr();
+            }
+            while(ch=='Y || ch=='Y');
+            range=max-min;
+            printf("\nTotal number = %d\n",max);
+            printf("\nLargest number = %d"\n,min);
+            printf("\nRange=%d\n",range);
+            getch();
+            return0;
+    }

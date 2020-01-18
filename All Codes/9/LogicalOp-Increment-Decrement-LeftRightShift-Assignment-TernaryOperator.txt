@@ -1,0 +1,56 @@
+#include <stdio.h>
+
+main()
+{
+
+int a = 10, b = 20, c = 30;
+
+int d, e, f, g, h, i, j, k, l, m;
+
+d = a==b&&b==c;
+
+e = a==b||b==c;
+
+f = !e;
+
+g = a++;
+
+h = ++a;
+
+i = a--;
+
+j = --a;
+
+k = a<<2;
+
+l = a>>2;
+
+b+=2;
+
+m = a<b&&b<c;
+
+printf("Logical and operator = %d\n",d);
+
+printf("\nLogical or operator = %d\n",e);
+
+printf("\nLogical not operator = %d\n",f);
+
+printf("\nPost increment of a = %d\n\nPre increment of a = %d\n\n",g,h);
+
+printf("\nPost decrement of a = %d\n\nPre decrement of a = %d\n\n",i,j);
+
+printf("\n\na<<2 = %d",k);
+
+printf("\n\na>>2 = %d",l);
+
+printf("\n\nAssignment operator += for b. And the final value is %d",b);
+
+printf("\n\nTernary operator = %d\n\n",m);
+
+
+
+
+
+
+
+}
